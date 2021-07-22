@@ -4,20 +4,28 @@
     "mongodb": "^3.6.9",
     "node.js": "^0.0.1-security",
     "rapydscript": "^0.5.62",
-    "requirejs": "^2.3.6"
+    "requirejs": "^2.3.6",
+    "server": "^1.0.34"
   },
   "name": "firebase",
   "version": "1.0.0",
   "main": "webScores.js",
   "scripts": {
-    "start": "node webScores copy.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "engines": {
-      "node": "14.17.2"
-    },
+    "node": "14.17.2"
+  },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbmny/ulend-newrates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rbmny/ulend-newrates/issues"
+  },
+  "homepage": "https://github.com/rbmny/ulend-newrates#readme",
   "description": ""
 }
