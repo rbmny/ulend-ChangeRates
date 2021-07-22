@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<link type="text/css" href="./styles/style.css" rel="stylesheet">
+<h1>Score Pré Análise, Score de Crédito</h1>
+</head>
+
+<div></div>
+
+<body>
+  <script type="text/javascript" src="/Users/ricardobomeny/Desktop/ULEND/scriptWeb/r.js">
+  </script>
+<script type="text/javascript" src="/Users/ricardobomeny/Desktop/ULEND/scriptWeb/webScores copy.js">
+</script>
+
+<div class="wrapper">
+  <div class="one">Score Pré Análise: <input id="scorePre" autocomplete="off"> </div>
+  <div class="two">Score de Crédito: <input id="scoreCredito" autocomplete="off"> </div>
+  <div class="three"> <button id="btn" onclick="runAll()">Verificar</button> </div>
+</div>
+
+<h3 id="erro"></h3>
+
+<table border="1" id="table1">
+    <td>Rating</td>
+    <td id="rating">N/A</td>
+    <td><input id="editRating" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td>Cobertura mínima de garantia real</td>
+    <td id="cobertura">N/A</td>
+    <td><input id="editCobertura" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td>Garantia de Imovel 120%</td>
+    <td id="1">N/A</td>
+    <td><input id="edit1" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td>Garantia de Imovel 80%</td>
+    <td id="2">N/A</td>
+    <td><input id="edit2" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td id="gr150">Garantia de Recebíveis 150%</td>
+    <td id="4">N/A</td>
+    <td><input id="edit4" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td id="ga20">Garantia de Aplicação 20%</td>
+    <td id="5">N/A</td>
+    <td><input id="edit5" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td id="ga50">Garantia de Aplicação 50%</td>
+    <td id="6">N/A</td>
+    <td><input id="edit6" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td id="gr50">Garantia de Recebíveis 50%</td>
+    <td id="3">N/A</td>
+    <td><input id="edit3" autocomplete="off"> </td>
+  </tr>
+  <tr>
+    <td id="aval">Aval</td>
+    <td id="7">N/A</td>
+    <td><input id="edit7" autocomplete="off"> </td>
+  </tr>
+
+</table>
+<div class="four"> <button id="update" onclick="changeValue()">Salvar Novos Valores</button> </div>
+
+
+</body>
+
+</html>

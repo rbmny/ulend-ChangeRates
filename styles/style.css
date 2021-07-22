@@ -1,0 +1,61 @@
+h1 {
+  color: white;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  background: #0078AB;
+}
+
+button {
+  color: white;
+  background: #0078AB;
+  border: solid #0078AB;
+}
+
+p {
+  padding: 0px 0px 0px 500px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 0px 650px;
+}
+
+html {
+  width: auto;
+  height: auto;
+}
+
+.wrapper {
+  display: grid;
+  gap: 10px;
+}
+
+.one {
+  grid-column: center;
+  padding: 0px 20px 0px 0px;
+}
+.two {
+  grid-column: center;
+  padding: 0px 0px 0px 7px;
+}
+
+.three {
+  grid-column: center;
+  padding: 0px 0px 0px 125px;
+}
+
+.four {
+  grid-column: center;
+  padding: 25px 0px 0px 650px;
+}
+
+}
