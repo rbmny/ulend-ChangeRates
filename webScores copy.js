@@ -1,8 +1,7 @@
-require(['mongodb'], function (MongoClient) {
-    //foo is now loaded.
-});
-// const MongoClient = requirejs('mongodb');
-// var ObjectID = requirejs("bson-objectid");
+// require(['mongodb'], function (MongoClient) {
+// });
+const MongoClient = require('mongodb');
+var ObjectID = require("bson-objectid");
 const uri = 'mongodb+srv://admin1:qJfVOmdw5uXTSkRl@cluster0.0dv92.mongodb.net/scoresData?retryWrites=true&w=majority'
 
 
