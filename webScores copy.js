@@ -1,9 +1,23 @@
-// require(['mongodb'], function (MongoClient) {
-// });
 const MongoClient = require('mongodb');
 var ObjectID = require("bson-objectid");
 const uri = 'mongodb+srv://admin1:qJfVOmdw5uXTSkRl@cluster0.0dv92.mongodb.net/scoresData?retryWrites=true&w=majority'
 
+function range(start, stop, step) {
+    var length, idx, range;
+    if (arguments.length <= 1) {
+        stop = start || 0;
+        start = 0;
+    }
+    step = arguments[2] || 1;
+    length = Math.max(Math.ceil((stop - start) / step), 0);
+    idx = 0;
+    range = new Array(length);
+    while (idx < length) {
+        range[idx++] = start;
+        start += step;
+    }
+    return range;
+}
 
 const client = new MongoClient(uri);
 client.connect();
@@ -35,25 +49,25 @@ for (i in range(1, 7)) {
     refValue = document.getElementById(`${i}`).value;
     if (i == 1) {
       refField = "Imovel 120"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
     } else if (i == 2) {
       refField = "Imovel 80"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
     } else if (i == 3) {
       refField = "Recebiveis 50"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
     } else if (i == 4) {
       refField = "Recebiveis 150"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
     } else if (i == 5) {
       refField = "Garantia 20"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
     } else if (i == 6) {
       refField = "Garantia 50"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
     } else if (i == 7) {
       refField = "Aval"
-      db.Data.update({refField: refValue}, {$set: {refField: document.getElementById(`edit${i}`).value}});
+      db.Data.update({refField: refValue}, {$set: {refField: find(refField)}});
   }
 }
 }
@@ -74,6 +88,7 @@ function scoreCredito() {
         }
       }
     }
+
 indexScore = scoreCredito();
 
 function find(name) {
