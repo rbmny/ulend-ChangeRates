@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/rbmny/ulend-newrates/issues"
   },
-  "homepage": "https://github.com/rbmny/ulend-newrates#readme"
+  "homepage": "https://github.com/rbmny/ulend-newrates#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bson": "^4.4.1",
+    "bson-objectid": "^2.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1"
+  }
 }
