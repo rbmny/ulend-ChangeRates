@@ -1,5 +1,6 @@
-const MongoClient = require('mongodb');
-var ObjectID = require("bson-objectid");
+// const MongoClient = require('mongodb');
+// var ObjectID = require("bson-objectid");
+const http = require('http');
 const uri = 'mongodb+srv://admin1:qJfVOmdw5uXTSkRl@cluster0.0dv92.mongodb.net/scoresData?retryWrites=true&w=majority'
 
 function range(start, stop, step) {
