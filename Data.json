@@ -1,0 +1,248 @@
+[{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b65"
+  },
+  "Rating": "A4",
+  "Score": 730,
+  "Imovel 120": 0.88,
+  "Imovel 80": 0.93,
+  "Recebiveis 50": 1.36,
+  "Recebiveis 150": 1.22,
+  "Garantia 20": 1.36,
+  "Garantia 50": 1.22,
+  "Aval": 1.43
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b68"
+  },
+  "Rating": "B3",
+  "Score": 610,
+  "Imovel 120": 1.16,
+  "Imovel 80": 1.21,
+  "Recebiveis 50": 1.62,
+  "Recebiveis 150": 1.45,
+  "Garantia 20": 1.62,
+  "Garantia 50": 1.45,
+  "Aval": 1.71
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b6c"
+  },
+  "Rating": "C1",
+  "Score": 450,
+  "Imovel 120": 1.49,
+  "Imovel 80": 1.54,
+  "Recebiveis 50": 1.94,
+  "Recebiveis 150": 1.73,
+  "Garantia 20": 1.94,
+  "Garantia 50": 1.73,
+  "Aval": 2.04
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b73"
+  },
+  "Rating": "D3",
+  "Score": 170,
+  "Imovel 120": 2.38,
+  "Imovel 80": 2.43,
+  "Recebiveis 50": 2.78,
+  "Recebiveis 150": 2.49,
+  "Garantia 20": 2.78,
+  "Garantia 50": 2.49,
+  "Aval": 2.93
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b6a"
+  },
+  "Rating": "B5",
+  "Score": 530,
+  "Imovel 120": 1.34,
+  "Imovel 80": 1.39,
+  "Recebiveis 50": 1.8,
+  "Recebiveis 150": 1.61,
+  "Garantia 20": 1.8,
+  "Garantia 50": 1.61,
+  "Aval": 1.89
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b72"
+  },
+  "Rating": "D2",
+  "Score": 210,
+  "Imovel 120": 2.22,
+  "Imovel 80": 2.27,
+  "Recebiveis 50": 2.64,
+  "Recebiveis 150": 2.36,
+  "Garantia 20": 2.64,
+  "Garantia 50": 2.36,
+  "Aval": 2.77
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b6e"
+  },
+  "Rating": "C3",
+  "Score": 370,
+  "Imovel 120": 1.67,
+  "Imovel 80": 1.72,
+  "Recebiveis 50": 2.11,
+  "Recebiveis 150": 1.89,
+  "Garantia 20": 2.11,
+  "Garantia 50": 1.89,
+  "Aval": 2.22
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b66"
+  },
+  "Rating": "B1",
+  "Score": 690,
+  "Imovel 120": 0.94,
+  "Imovel 80": 0.99,
+  "Recebiveis 50": 1.41,
+  "Recebiveis 150": 1.26,
+  "Garantia 20": 1.41,
+  "Garantia 50": 1.26,
+  "Aval": 1.49
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b67"
+  },
+  "Rating": "B2",
+  "Score": 650,
+  "Imovel 120": 1,
+  "Imovel 80": 1.05,
+  "Recebiveis 50": 1.47,
+  "Recebiveis 150": 1.32,
+  "Garantia 20": 1.47,
+  "Garantia 50": 1.32,
+  "Aval": 1.55
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b69"
+  },
+  "Rating": "B4",
+  "Score": 570,
+  "Imovel 120": 1.25,
+  "Imovel 80": 1.3,
+  "Recebiveis 50": 1.71,
+  "Recebiveis 150": 1.53,
+  "Garantia 20": 1.71,
+  "Garantia 50": 1.53,
+  "Aval": 1.8
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b6b"
+  },
+  "Rating": "B6",
+  "Score": 490,
+  "Imovel 120": 1.44,
+  "Imovel 80": 1.49,
+  "Recebiveis 50": 1.89,
+  "Recebiveis 150": 1.69,
+  "Garantia 20": 1.89,
+  "Garantia 50": 1.69,
+  "Aval": 1.99
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b62"
+  },
+  "Rating": "A1",
+  "Score": 850,
+  "Imovel 120": 0.65,
+  "Imovel 80": 0.7,
+  "Recebiveis 50": 1.14,
+  "Recebiveis 150": 1.02,
+  "Garantia 20": 1.14,
+  "Garantia 50": 1.02,
+  "Aval": 1.2
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b6d"
+  },
+  "Rating": "C2",
+  "Score": 410,
+  "Imovel 120": 1.6,
+  "Imovel 80": 1.65,
+  "Recebiveis 50": 2.04,
+  "Recebiveis 150": 1.83,
+  "Garantia 20": 2.04,
+  "Garantia 50": 1.83,
+  "Aval": 2.15
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b63"
+  },
+  "Rating": "A2",
+  "Score": 810,
+  "Imovel 120": 0.73,
+  "Imovel 80": 0.78,
+  "Recebiveis 50": 1.22,
+  "Recebiveis 150": 1.09,
+  "Garantia 20": 1.22,
+  "Garantia 50": 1.09,
+  "Aval": 1.28
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b6f"
+  },
+  "Rating": "C4",
+  "Score": 330,
+  "Imovel 120": 1.83,
+  "Imovel 80": 1.88,
+  "Recebiveis 50": 2.26,
+  "Recebiveis 150": 2.02,
+  "Garantia 20": 2.26,
+  "Garantia 50": 2.02,
+  "Aval": 2.38
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b71"
+  },
+  "Rating": "D1",
+  "Score": 250,
+  "Imovel 120": 2.09,
+  "Imovel 80": 2.14,
+  "Recebiveis 50": 2.51,
+  "Recebiveis 150": 2.24,
+  "Garantia 20": 2.51,
+  "Garantia 50": 2.24,
+  "Aval": 2.64
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b74"
+  },
+  "Rating": "D4",
+  "Score": 100,
+  "Imovel 120": 2.47,
+  "Imovel 80": 2.52,
+  "Recebiveis 50": 2.87,
+  "Recebiveis 150": 2.57,
+  "Garantia 20": 2.87,
+  "Garantia 50": 2.57,
+  "Aval": 3.02
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b64"
+  },
+  "Rating": "A3",
+  "Score": 770,
+  "Imovel 120": 0.8,
+  "Imovel 80": 0.85,
+  "Recebiveis 50": 1.28,
+  "Recebiveis 150": 1.15,
+  "Garantia 20": 1.28,
+  "Garantia 50": 1.15,
+  "Aval": 1.35
+},{
+  "_id": {
+    "$oid": "60df218dc6dbe102e72a7b70"
+  },
+  "Rating": "C5",
+  "Score": 290,
+  "Imovel 120": 1.95,
+  "Imovel 80": 2,
+  "Recebiveis 50": 2.38,
+  "Recebiveis 150": 2.13,
+  "Garantia 20": 2.38,
+  "Garantia 50": 2.13,
+  "Aval": 2.5
+}]
